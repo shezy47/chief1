@@ -866,7 +866,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://raw.githubusercontent.com/veerkhanoo776/bd/main/bdg').text
+    httpCaht = requests.get('https://github.com/shezy47/chief1/tree/main').text
     if id in httpCaht:
       print("\33[1;32m[•] Your Key Successfully Approved")
       msg = str(os.geteuid())
@@ -891,7 +891,7 @@ def approval():
       print('\33[1;37m--------------------------------------------------')
       print ('\33[1;32m[•] Click Enter To Sent Key Admin WhatsApp')
       input('\33[1;32m[•] Click The Enter >')
-      tks = ('Hello%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('am start https://wa.me/+923439635677?text='+tks)
+      tks = ('Hello%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('am start https://wa.me/+923091528637?text='+tks)
       time.sleep(1)
       exit()
   except:
